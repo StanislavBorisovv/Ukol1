@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0px;
+
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    height: 10vh;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+    background-color: azure;
+    
+}
+
+div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    height: 15vh;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+    padding: 50px;
+
+}
+button {
+    border-radius: 25%;
+    min-height: 50px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+button:hover {
+background-color: gray;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    height: 5vh;
+    justify-content: center;
+    justify-items: center;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: gray;
+}
